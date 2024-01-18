@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flexbox1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Página Web</title>
+</head>
+
+<body>
+    <header>
+        <img src="logotipo-paginaweb.png" alt="Logo">
+    </header>
+
+    <main>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Correo electrónico" required autofocus>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <label for="telefono">Teléfono móvil:</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="Ej. 1234567890">
+
+            <label for="fechaNacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+
+            <label for="recordarContrasena">Recordar contraseña:</label>
+            <input type="checkbox" id="recordarContrasena" name="recordarContrasena">
+
+            <button type="submit">Dar de alta</button> 
+        </form> 
+    </main>
+</body>
+
+<footer>
+    <p class="copyright">© 2024 Jorge Asensi tur</p>
+</footer>
+
+</html>
